@@ -189,6 +189,12 @@ block__register{
     margin-bottom: 25px;
     padding-left: 10px;
     padding-right: 5px;
+    outline: none;
+}
+
+.register__input:hover,.register__input:focus{
+    outline: 2px solid #F2E85E;
+    border: none;
 }
 
 .register__input::placeholder{
@@ -198,6 +204,12 @@ block__register{
 
 .last__input{
     margin-bottom: 0px;
+}
+
+.register__status{
+    margin-top: 10px;
+    font-size: 14px;
+    display: block;
 }
 
 .registe__btn--submit{
@@ -214,9 +226,109 @@ block__register{
     margin-bottom: 40px;
 }
 
+.base__table--container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.row__count{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-bottom: 15px;
+}
+
+.row__btn{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    width: 180px;
+    height: 40px;
+    background: #F2E85E;
+    border-radius: 40px;
+}
+
+.table__clean--btn{
+    width: 100px;
+    background: #F2E85E;
+    height: 30px;
+    border-radius: 30px;
+}
+
 .footer{
     background-color: #F2E85E;
     padding-top: 25px;
     padding-bottom: 25px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
+.footer .container{
+    display: flex;
+}
+
+.footer__date{
+    margin-left: auto;
+}
+
+
+.base__table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+}
+.base__table th {
+    font-weight: bold;
+    padding: 5px;
+    background: #efefef;
+    border: 1px solid #dddddd;
+}
+.base__table td {
+    border: 1px solid #dddddd;
+    padding: 5px;
+    text-align: center;
+}
+
+.update__caption{
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+
+.update__container{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.update__container input{
+    width: 164px;
+    height: 30px;
+    border: 1px solid #F2E85E;
+    padding-left: 10px;
+    padding-right: 5px;
+    outline: none;
+}
+
+.update__container p{
+    margin-bottom: 20px;
+}
+
+.update__btn{
+    width: 150px;
+    height: 40px;
+    background: #F2E85E;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.update__link{
+    color: black;
+    font-size: 25px;
+}
+
+
+/*<button type='submit' class='btn update__btn'>Изменить</button>*/
